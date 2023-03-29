@@ -52,7 +52,7 @@ app.get('/index', (req,response) =>{
 
 app.get('/crazy' , (req,res) => {
     console.warn(111)
-    res.json('ok')
+    res.json('phuc dep trai')
 })
 //port
 app.listen(3000, console.log("Listening at port 3000..."))
