@@ -51,7 +51,7 @@ app.get('/index', (req,response) =>{
 
 
 app.get('/crazy' , (req,res) => {
-    console.warn(111)
+    console.warn(111333)
     res.json('phuc dep trai')
 })
 //port
