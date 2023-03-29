@@ -49,5 +49,9 @@ app.get('/index', (req,response) =>{
     
 });
 
+
+app.get('/crazy' , (req,res) => {
+    res.json('ok')
+})
 //port
 app.listen(3000, console.log("Listening at port 3000..."))
