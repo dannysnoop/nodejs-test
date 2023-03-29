@@ -51,7 +51,7 @@ app.get('/index', (req,response) =>{
 
 
 app.get('/crazy' , (req,res) => {
-    console.log(1222)
+    console.log(122333332)
     res.json('ok')
 })
 //port
